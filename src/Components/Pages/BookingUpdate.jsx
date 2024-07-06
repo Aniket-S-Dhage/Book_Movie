@@ -28,6 +28,7 @@ const BookingUpdate = () => {
     const [bookedSeats, setBookedSeats] = useState([])
 
     const {bookingID} = useParams()
+    console.log('BookingID', bookingID)
 
     const getData = async()=>{
 
@@ -71,7 +72,7 @@ const BookingUpdate = () => {
                     const newSeatStatus = seat ==='available' ? 'booked' : 'available'
 
                     if(newSeatStatus === 'booked'){
-                        setBookedSeats([...bookedSeats, [String.fromCharCode(65+r), c]])
+                        setBookedSeats([...bookedSeats, [r, c]])
                     }
                     else{
                         setBookedSeats(bookedSeats.filter(([row, col])=> row !== r || col !== c ))
@@ -87,18 +88,18 @@ const BookingUpdate = () => {
         ))
 
         setSeats(newSeats)
-        console.log("aa",bookedSeats)
+        console.log("handleClick",bookedSeats)
 
     }
 
 
     const updateData = async (data) => {
 
-        console.log("aa",bookedSeats)
+        console.log("UpdateData",bookedSeats)
 
-        data.seats = bookedSeats
+        data.bseats = bookedSeats
         
-        await axios.post(`http://localhost:8020/bookings/${bookingID}`, data)
+        await axios.put(`http://localhost:8020/bookings/${bookingID}`, data)
         alert('Ticket Booking Updated..!!')
         reset()
         setSeats(Array(rows).fill(null).map(() => {

@@ -1,25 +1,6 @@
 {
   "bookings": [
     {
-      "id": "3897",
-      "name": "Shital",
-      "mob": "7855641242",
-      "gender": "Female",
-      "movie": "Movie02",
-      "date": "2024-07-02",
-      "time": "5 to 8pm",
-      "bseats": [
-        [
-          1,
-          15
-        ],
-        [
-          1,
-          16
-        ]
-      ]
-    },
-    {
       "id": "9b62",
       "name": "Munawar",
       "mob": "7974586215",
@@ -74,77 +55,23 @@
       ]
     },
     {
-      "id": "313e",
-      "name": "Test32",
-      "mob": "",
-      "gender": null,
-      "movie": null,
-      "date": "",
-      "time": null,
-      "bseats": [
-        [
-          "A",
-          1
-        ]
-      ]
-    },
-    {
-      "id": "667e",
-      "name": "Anjali",
-      "mob": "9874566210",
-      "gender": "Female",
+      "name": "Karthik",
+      "mob": "8888888888",
+      "gender": "Male",
       "movie": "Movie02",
-      "date": "2024-07-09",
-      "time": "1 to 4pm",
+      "date": "2024-07-18",
+      "time": "9 to 12pm",
       "bseats": [
         [
-          "A",
-          7
+          3,
+          2
         ],
         [
-          "A",
-          8
-        ],
-        [
-          "A",
-          9
+          3,
+          3
         ]
-      ]
-    },
-    {
-      "id": "c08c",
-      "name": "",
-      "mob": "",
-      "gender": null,
-      "movie": null,
-      "date": "",
-      "time": null,
-      "bseats": [
-        [
-          "A",
-          0
-        ],
-        [
-          "A",
-          1
-        ],
-        [
-          "C",
-          16
-        ],
-        [
-          "C",
-          17
-        ],
-        [
-          "C",
-          18
-        ],
-        [
-          "C",
-          19
-        ]
-      ]
+      ],
+      "id": "313e"
     }
   ]
 }

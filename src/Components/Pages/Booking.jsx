@@ -34,7 +34,7 @@ const Booking = () => {
                     const newSeatStatus = seat ==='available' ? 'booked' : 'available'
 
                     if(newSeatStatus === 'booked'){
-                        setBookedSeats([...bookedSeats, [String.fromCharCode(65+r), c]])
+                        setBookedSeats([...bookedSeats, [r, c]])
                     }
                     else{
                         setBookedSeats(bookedSeats.filter(([row, col])=> row !== r || col !== c ))
