@@ -1,0 +1,26 @@
+.theater {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin: 20px;
+}
+
+.seat {
+    width: 50px !important;
+    border: 1px solid red;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.seat.available{
+    background-color: aqua;
+}
+
+.seat.booked{
+    background-color: orange;
+}

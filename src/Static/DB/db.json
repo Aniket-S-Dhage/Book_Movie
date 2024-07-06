@@ -1,0 +1,150 @@
+{
+  "bookings": [
+    {
+      "id": "3897",
+      "name": "Shital",
+      "mob": "7855641242",
+      "gender": "Female",
+      "movie": "Movie02",
+      "date": "2024-07-02",
+      "time": "5 to 8pm",
+      "bseats": [
+        [
+          1,
+          15
+        ],
+        [
+          1,
+          16
+        ]
+      ]
+    },
+    {
+      "id": "9b62",
+      "name": "Munawar",
+      "mob": "7974586215",
+      "gender": "Male",
+      "movie": "Movie04",
+      "date": "2024-07-04",
+      "time": "5 to 8pm",
+      "bseats": [
+        [
+          1,
+          15
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "id": "a870",
+      "name": "Tejaswini",
+      "mob": "7972155964",
+      "gender": "Female",
+      "movie": "Movie03",
+      "date": "2024-07-18",
+      "time": "1 to 4pm",
+      "bseats": [
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "id": "313e",
+      "name": "Test32",
+      "mob": "",
+      "gender": null,
+      "movie": null,
+      "date": "",
+      "time": null,
+      "bseats": [
+        [
+          "A",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "667e",
+      "name": "Anjali",
+      "mob": "9874566210",
+      "gender": "Female",
+      "movie": "Movie02",
+      "date": "2024-07-09",
+      "time": "1 to 4pm",
+      "bseats": [
+        [
+          "A",
+          7
+        ],
+        [
+          "A",
+          8
+        ],
+        [
+          "A",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "c08c",
+      "name": "",
+      "mob": "",
+      "gender": null,
+      "movie": null,
+      "date": "",
+      "time": null,
+      "bseats": [
+        [
+          "A",
+          0
+        ],
+        [
+          "A",
+          1
+        ],
+        [
+          "C",
+          16
+        ],
+        [
+          "C",
+          17
+        ],
+        [
+          "C",
+          18
+        ],
+        [
+          "C",
+          19
+        ]
+      ]
+    }
+  ]
+}
