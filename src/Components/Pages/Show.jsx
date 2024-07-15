@@ -19,8 +19,6 @@ const Show = () => {
         getData()
     }, [])
 
-    const [refresh, setRefresh] = useState(true)
-
     async function deleteBooking(id, name){
         const ans = window.confirm(`Do you want to delete booking for ${id}: ${name}`)
 

@@ -16,9 +16,6 @@ const Navbar = () => {
                                 <NavLink className="nav-link active" aria-current="page" to="/book">Book Ticket</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/register">Register</NavLink>
-                            </li>
-                            <li className="nav-item">
                                 <NavLink className="nav-link active" aria-current="page" to="/show">Show</NavLink>
                             </li>
                         </ul>
